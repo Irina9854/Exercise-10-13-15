@@ -12,7 +12,6 @@ else
     int result = ((number / 10) % 10);
     Console.WriteLine(result);
 }
-// Функция ввода сообщения
 int ReadInt(string message)
 {
     Console.Write(message);
