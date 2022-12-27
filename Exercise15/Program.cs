@@ -2,10 +2,9 @@
 
 int number = ReadInt("Введите число от 1 до 7: ");
 Console.WriteLine(number);
-int a = number.ToString().Length;
-if (a > 0 && a < 8)
+if (number > 0 && number < 8)
 {
-    if (a == 7 || a == 6)
+    if (number == 7 || number == 6)
     {
         Console.Write("Выходной");
     }
